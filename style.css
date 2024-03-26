@@ -1,0 +1,58 @@
+/* DG coxinhas */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --cor-de-fundo: #ffaad2;
+    --cor-do-texto: #000000;
+}
+
+body {
+    background-color: var(--cor-de-fundo)
+}
+
+h1 {
+    color: var(--cor-do-texto);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 10%;
+}
+
+.coxinha-principal {
+    width: 30%;
+    border-radius: 30px;
+    border: 40px solid white;
+}
+
+section {
+    display: flex;
+    color: rgb(#000000);
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.hello-kitty {
+    display: flex;
+}
+
+.itens {
+    margin: 0 40px;
+    padding: 0 40px;
+    background-color: antiquewhite;
+}
+
+.titulo{
+      font-family: "Oswald", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
